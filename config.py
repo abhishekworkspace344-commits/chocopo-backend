@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 from urllib.parse import quote_plus
+
+load_dotenv()
 
 class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "change-this-secret-key")
