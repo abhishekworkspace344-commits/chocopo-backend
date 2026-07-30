@@ -5,4 +5,5 @@ Flask-JWT-Extended
 PyMySQL
 python-dotenv
 razorpay
-werkzeug
+werkzeug
+gunicorn
